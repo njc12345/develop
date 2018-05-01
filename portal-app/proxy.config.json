@@ -1,7 +1,6 @@
 {
   "/api/*": {
-    "target": "http://localhost:8080/user-portal",
-    "secure": false,
-    "pathRewrite": {"^/api" : ""}
+    "target": "http://localhost:8080/",
+    "secure": false
   }
 }

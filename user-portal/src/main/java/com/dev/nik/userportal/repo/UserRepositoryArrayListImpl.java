@@ -11,7 +11,7 @@ import com.dev.nik.userportal.domain.User;
 public class UserRepositoryArrayListImpl implements UserRepository{	
 	
 	List<User> userList = new ArrayList<>();
-	private static int userIdCount = 0;
+	private static int userIdCount = 1;
 
 	@Override
 	public void delete(User user) {
